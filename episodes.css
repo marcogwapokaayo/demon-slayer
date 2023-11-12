@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(image/demonslayer.jpg.jpg);
+    background-size: cover;
+}
+nav{
+    background-color: blueviolet;
+    padding: 10px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: .4s;
+
+}
+nav ul li:not(:last-child) a:hover,
+nav ul li:not(:last-child) a:focus{
+    border-bottom: 2px solid white;
+}
+nav ul li.active a{
+    border-bottom: 2px solid white;
+}
+nav ul li.btn a{
+    background: transparent;
+    color: bl;
+    border: 1px solid #f5dca8;
+    padding: 9px 20px;
+    border-radius: 80px;
+    line-height: 1.4;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 150px;
+}
+nav ul li.btn:hover a{
+    border: 1px solid white;
+    color: black;
+    background: white;
+    transition: .4s;
+}
+.container {
+    margin-top: 150px;
+    padding: 30px;
+    grid-template-columns: auto;
+
+}
+.container .btn{
+    padding: 10px;
+    margin: 10px 5px 10px;
+}
+
